@@ -1,9 +1,9 @@
 # ABLE
-Assessing ButterfLies in Europe project repository 
+Assessing ButterfLies in Europe project repository for IT elements of the project (apps, website, R scripts, tools)
 
-# [Click to see all open issues](https://github.com/BiologicalRecordsCentre/BRCtracker/issues)
+# [Click to see all open issues](https://github.com/BiologicalRecordsCentre/BRCtracker/ALBE/issues)
 
-This is a tool to keep track of the many elements to the project such as discusions, datasets, tools and analyses.
+This is a tool to keep track of the IT elements of  the project.
 
 ## Issue
 
