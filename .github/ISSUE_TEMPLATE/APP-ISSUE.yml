@@ -1,5 +1,5 @@
 name: Report an app issue
-description: Report an app issue
+description: This is a template for reporting an app issue. To create a feature request or to report website issues please use the "Open a blank issue" below.
 title: "Issue: "
 labels: ["mobile app"]
 body:
