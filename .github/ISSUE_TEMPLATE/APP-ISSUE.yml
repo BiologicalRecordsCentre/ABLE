@@ -1,0 +1,64 @@
+name: Report an issue
+description: Report an issue
+title: "Issue: "
+labels: ["mobile app"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this issue report! The more information you provide about your case the sooner we can reproduce the issue and improve the app.
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the issue
+      description: A clear and concise description of what the issue is.
+    validations:
+      required: true  
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: To Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+  - type: input
+    id: app-version
+    attributes:
+      label: App Version
+      description: You can find this information by going to the setting menu tab in the app and scrolling to the bottom of the page.
+      placeholder: e.g. 1.0.0
+    validations:
+      required: true  
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      placeholder: e.g. Motorola g7
+  - type: input
+    id: time
+    attributes:
+      label: When did this happen
+      description: If you can provide the time of the day this issue has happened then we can look into our server logs to find anything related to your case.
+      placeholder: e.g. Monday, 20:21
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, drag and drop in this field screenshots to help explain your problem. 
+      placeholder: |
+        Android: can be created by pressing the Volume Down and Power Button at the same time.
+
+        iOS: with Face ID - press the side button and volume up button; with a Home button - press the Home button and the side button.
+  - type: textarea
+    id: comments
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
